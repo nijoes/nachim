@@ -1,0 +1,2025 @@
+site:
+  name: 인천대학교
+  list_url: https://www.inu.ac.kr/inu/1534/subview.do
+
+robots:
+  allow: true
+  sitemap: https://www.inu.ac.kr/xmlSite/siteMap.do
+
+collect:
+  Notice Table
+
+  | id | 내부 식별자 |
+  | notice_number | 원본 게시글 번호 |
+  | title | 공지 제목 |
+  | author | 작성자 |
+  | target | 대상 |
+  | view_count | 조회수 |
+  | posted_at | 게시일 |
+  | apply_start | 신청 시작일 |
+  | apply_end | 신청 마감일 |
+  | content | 원문 |
+  | url | 원문 URL |
+  | created_at | 생성 시각 |
+  | updated_at | 수정 시각 |
+
+  Attachment Table
+
+  | id | 첨부파일 ID |
+  | notice_id | 연결된 공지 ID |
+  | file_name | 파일명 |
+  | download_url | 다운로드 URL |
+
+duplicate_key:
+  notice_number
+
+crawl_scope: 
+  all
+
+login:
+  false
+
+schedule:
+  hourly
+
+reference:
+  list_html:
+    <tbody>
+					
+					
+
+					
+						
+							
+								
+									
+									
+									
+									
+										
+										<tr class="">
+									
+								
+									<td class="td-num">5630</td>
+									
+									
+									<td class="td-category">
+									
+										
+										
+										
+											<span class="col_1e5">[일반/행사/모집]</span>
+										
+										
+										
+										
+										
+									
+								</td>
+									<td class="td-subject">
+										
+											
+											
+											
+											
+												
+												<a href="/bbs/inu/2006/426877/artclView" class="btn-view-artcl" data-site-id="inu" data-fnct-no="2006" data-artcl-seq="426877">
+											
+										
+										
+										
+											
+											
+											
+											
+												<strong>[공학교육혁신센터] 창의혁신DNA 직무캠프(심화)모집안내(~7/23,목)</strong>
+												
+													<span class="new">새글</span>
+												
+											
+										
+										
+											
+											
+											
+											
+												</a>
+											
+										
+										<div class="mobile-list">
+											<ul>
+												<li>
+													<strong>작성자</strong>
+													
+														
+															공학교육혁신센터
+														
+														
+													
+												</li>
+												<li>
+													<strong>작성일</strong>
+													2026.07.09
+												</li>
+												<li>
+													<strong>조회수</strong>
+													
+														
+														
+														
+														
+															24
+														
+													
+												</li>
+												<li>
+													<strong>첨부파일</strong>
+													
+														
+														
+														
+														
+															
+																
+																
+																	<p class="file-y">첨부파일 있음</p>
+																
+															
+														
+													
+												</li>
+											</ul>
+										</div>
+									</td>
+
+									<td class="td-write">
+										
+											
+											
+											
+											
+												
+													
+														공학교육혁신센터
+													
+													
+												
+											
+										
+									</td>
+									<td class="td-date">2026.07.09</td>
+									
+									
+									<td class="td-access">
+										
+											
+											
+											
+											
+												24
+											
+										
+									</td>
+									
+										<td class="td-file file">
+											
+												
+												
+												
+												
+													
+														
+														
+															<p class="file-y">첨부파일 있음</p>
+														
+													
+												
+											
+										</td>
+									
+									
+									
+									
+									
+										
+									
+										
+									
+								</tr>
+							
+								
+									
+									
+									
+									
+										
+										<tr class="">
+									
+								
+									<td class="td-num">5629</td>
+									
+									
+									<td class="td-category">
+									
+										
+										
+										
+											<span class="col_1e5">[일반/행사/모집]</span>
+										
+										
+										
+										
+										
+									
+								</td>
+									<td class="td-subject">
+										
+											
+											
+											
+											
+												
+												<a href="/bbs/inu/2006/426871/artclView" class="btn-view-artcl" data-site-id="inu" data-fnct-no="2006" data-artcl-seq="426871">
+											
+										
+										
+										
+											
+											
+											
+											
+												<strong>[창업지원단] 2026년도 1학기 창업인재지원금 안내(~7.19(일)까지 신청)</strong>
+												
+													<span class="new">새글</span>
+												
+											
+										
+										
+											
+											
+											
+											
+												</a>
+											
+										
+										<div class="mobile-list">
+											<ul>
+												<li>
+													<strong>작성자</strong>
+													
+														
+															창업지원단
+														
+														
+													
+												</li>
+												<li>
+													<strong>작성일</strong>
+													2026.07.09
+												</li>
+												<li>
+													<strong>조회수</strong>
+													
+														
+														
+														
+														
+															69
+														
+													
+												</li>
+												<li>
+													<strong>첨부파일</strong>
+													
+														
+														
+														
+														
+															
+																
+																
+																	<p class="file-y">첨부파일 있음</p>
+																
+															
+														
+													
+												</li>
+											</ul>
+										</div>
+									</td>
+
+									<td class="td-write">
+										
+											
+											
+											
+											
+												
+													
+														창업지원단
+													
+													
+												
+											
+										
+									</td>
+									<td class="td-date">2026.07.09</td>
+									
+									
+									<td class="td-access">
+										
+											
+											
+											
+											
+												69
+											
+										
+									</td>
+									
+										<td class="td-file file">
+											
+												
+												
+												
+												
+													
+														
+														
+															<p class="file-y">첨부파일 있음</p>
+														
+													
+												
+											
+										</td>
+									
+									
+									
+									
+									
+										
+									
+										
+									
+								</tr>
+							
+								
+									
+									
+									
+									
+										
+										<tr class="">
+									
+								
+									<td class="td-num">5628</td>
+									
+									
+									<td class="td-category">
+									
+										
+										
+										
+										
+											<span class="col_1e5">[장학금]</span>
+										
+										
+										
+										
+									
+								</td>
+									<td class="td-subject">
+										
+											
+											
+											
+											
+												
+												<a href="/bbs/inu/2006/426860/artclView" class="btn-view-artcl" data-site-id="inu" data-fnct-no="2006" data-artcl-seq="426860">
+											
+										
+										
+										
+											
+											
+											
+											
+												<strong>[정보통신공학과] 2026-1학기 하계방학 교내봉사장학생 모집 안내</strong>
+												
+													<span class="new">새글</span>
+												
+											
+										
+										
+											
+											
+											
+											
+												</a>
+											
+										
+										<div class="mobile-list">
+											<ul>
+												<li>
+													<strong>작성자</strong>
+													
+														
+															정보통신공학과
+														
+														
+													
+												</li>
+												<li>
+													<strong>작성일</strong>
+													2026.07.09
+												</li>
+												<li>
+													<strong>조회수</strong>
+													
+														
+														
+														
+														
+															99
+														
+													
+												</li>
+												<li>
+													<strong>첨부파일</strong>
+													
+														
+														
+														
+														
+															
+																
+																
+																	<p class="file-y">첨부파일 있음</p>
+																
+															
+														
+													
+												</li>
+											</ul>
+										</div>
+									</td>
+
+									<td class="td-write">
+										
+											
+											
+											
+											
+												
+													
+														정보통신공학과
+													
+													
+												
+											
+										
+									</td>
+									<td class="td-date">2026.07.09</td>
+									
+									
+									<td class="td-access">
+										
+											
+											
+											
+											
+												99
+											
+										
+									</td>
+									
+										<td class="td-file file">
+											
+												
+												
+												
+												
+													
+														
+														
+															<p class="file-y">첨부파일 있음</p>
+														
+													
+												
+											
+										</td>
+									
+									
+									
+									
+									
+										
+									
+										
+									
+								</tr>
+							
+								
+									
+									
+									
+									
+										
+										<tr class="">
+									
+								
+									<td class="td-num">5627</td>
+									
+									
+									<td class="td-category">
+									
+										
+										
+										
+											<span class="col_1e5">[일반/행사/모집]</span>
+										
+										
+										
+										
+										
+									
+								</td>
+									<td class="td-subject">
+										
+											
+											
+											
+											
+												
+												<a href="/bbs/inu/2006/426858/artclView" class="btn-view-artcl" data-site-id="inu" data-fnct-no="2006" data-artcl-seq="426858">
+											
+										
+										
+										
+											
+											
+											
+											
+												<strong>[창업지원단] ‼️오늘 신청 마감‼️2026년도 OKTA 제24기 차세대글로벌 창업무역스쿨 모국방문교육 안내</strong>
+												
+													<span class="new">새글</span>
+												
+											
+										
+										
+											
+											
+											
+											
+												</a>
+											
+										
+										<div class="mobile-list">
+											<ul>
+												<li>
+													<strong>작성자</strong>
+													
+														
+															창업지원단
+														
+														
+													
+												</li>
+												<li>
+													<strong>작성일</strong>
+													2026.07.09
+												</li>
+												<li>
+													<strong>조회수</strong>
+													
+														
+														
+														
+														
+															120
+														
+													
+												</li>
+												<li>
+													<strong>첨부파일</strong>
+													
+														
+														
+														
+														
+															
+																
+																
+																	<p class="file-y">첨부파일 있음</p>
+																
+															
+														
+													
+												</li>
+											</ul>
+										</div>
+									</td>
+
+									<td class="td-write">
+										
+											
+											
+											
+											
+												
+													
+														창업지원단
+													
+													
+												
+											
+										
+									</td>
+									<td class="td-date">2026.07.09</td>
+									
+									
+									<td class="td-access">
+										
+											
+											
+											
+											
+												120
+											
+										
+									</td>
+									
+										<td class="td-file file">
+											
+												
+												
+												
+												
+													
+														
+														
+															<p class="file-y">첨부파일 있음</p>
+														
+													
+												
+											
+										</td>
+									
+									
+									
+									
+									
+										
+									
+										
+									
+								</tr>
+							
+								
+									
+									
+									
+									
+										
+										<tr class="">
+									
+								
+									<td class="td-num">5626</td>
+									
+									
+									<td class="td-category">
+									
+										
+										
+										
+											<span class="col_1e5">[일반/행사/모집]</span>
+										
+										
+										
+										
+										
+									
+								</td>
+									<td class="td-subject">
+										
+											
+											
+											
+											
+												
+												<a href="/bbs/inu/2006/426846/artclView" class="btn-view-artcl" data-site-id="inu" data-fnct-no="2006" data-artcl-seq="426846">
+											
+										
+										
+										
+											
+											
+											
+											
+												<strong>2026년 8월말 전임교원 정년퇴임식 개최 안내</strong>
+												
+													<span class="new">새글</span>
+												
+											
+										
+										
+											
+											
+											
+											
+												</a>
+											
+										
+										<div class="mobile-list">
+											<ul>
+												<li>
+													<strong>작성자</strong>
+													
+														
+															교무과
+														
+														
+													
+												</li>
+												<li>
+													<strong>작성일</strong>
+													2026.07.08
+												</li>
+												<li>
+													<strong>조회수</strong>
+													
+														
+														
+														
+														
+															213
+														
+													
+												</li>
+												<li>
+													<strong>첨부파일</strong>
+													
+														
+														
+														
+														
+															
+																
+																	<p class="file-n">첨부파일 없음</p>
+																
+																
+															
+														
+													
+												</li>
+											</ul>
+										</div>
+									</td>
+
+									<td class="td-write">
+										
+											
+											
+											
+											
+												
+													
+														교무과
+													
+													
+												
+											
+										
+									</td>
+									<td class="td-date">2026.07.08</td>
+									
+									
+									<td class="td-access">
+										
+											
+											
+											
+											
+												213
+											
+										
+									</td>
+									
+										<td class="td-file ">
+											
+												
+												
+												
+												
+													
+														
+															<p class="file-n">첨부파일 없음</p>
+														
+														
+													
+												
+											
+										</td>
+									
+									
+									
+									
+									
+										
+									
+										
+									
+								</tr>
+							
+								
+									
+									
+									
+									
+										
+										<tr class="">
+									
+								
+									<td class="td-num">5625</td>
+									
+									
+									<td class="td-category">
+									
+										
+											<span class="col_1e5">[학사]</span>
+										
+										
+										
+										
+										
+										
+										
+									
+								</td>
+									<td class="td-subject">
+										
+											
+											
+											
+											
+												
+												<a href="/bbs/inu/2006/426845/artclView" class="btn-view-artcl" data-site-id="inu" data-fnct-no="2006" data-artcl-seq="426845">
+											
+										
+										
+										
+											
+											
+											
+											
+												<strong>외국인 유학생 학점인정을 위한 &lt;국어국문학과 한국어 교과목&gt; 강의계획서 및 교과목 설명서 관련 안내</strong>
+												
+													<span class="new">새글</span>
+												
+											
+										
+										
+											
+											
+											
+											
+												</a>
+											
+										
+										<div class="mobile-list">
+											<ul>
+												<li>
+													<strong>작성자</strong>
+													
+														
+															국어국문학과
+														
+														
+													
+												</li>
+												<li>
+													<strong>작성일</strong>
+													2026.07.08
+												</li>
+												<li>
+													<strong>조회수</strong>
+													
+														
+														
+														
+														
+															128
+														
+													
+												</li>
+												<li>
+													<strong>첨부파일</strong>
+													
+														
+														
+														
+														
+															
+																
+																
+																	<p class="file-y">첨부파일 있음</p>
+																
+															
+														
+													
+												</li>
+											</ul>
+										</div>
+									</td>
+
+									<td class="td-write">
+										
+											
+											
+											
+											
+												
+													
+														국어국문학과
+													
+													
+												
+											
+										
+									</td>
+									<td class="td-date">2026.07.08</td>
+									
+									
+									<td class="td-access">
+										
+											
+											
+											
+											
+												128
+											
+										
+									</td>
+									
+										<td class="td-file file">
+											
+												
+												
+												
+												
+													
+														
+														
+															<p class="file-y">첨부파일 있음</p>
+														
+													
+												
+											
+										</td>
+									
+									
+									
+									
+									
+										
+									
+										
+									
+								</tr>
+							
+								
+									
+									
+									
+									
+										
+										<tr class="">
+									
+								
+									<td class="td-num">5624</td>
+									
+									
+									<td class="td-category">
+									
+										
+										
+											<span class="col_1e5">[학점교류]</span>
+										
+										
+										
+										
+										
+										
+									
+								</td>
+									<td class="td-subject">
+										
+											
+											
+											
+											
+												
+												<a href="/bbs/inu/2006/426843/artclView" class="btn-view-artcl" data-site-id="inu" data-fnct-no="2006" data-artcl-seq="426843">
+											
+										
+										
+										
+											
+											
+											
+											
+												<strong>2026학년도 2학기 충북대학교 학점교류 안내(~7. 22.(수) 13:00)</strong>
+												
+													<span class="new">새글</span>
+												
+											
+										
+										
+											
+											
+											
+											
+												</a>
+											
+										
+										<div class="mobile-list">
+											<ul>
+												<li>
+													<strong>작성자</strong>
+													
+														
+															학사과
+														
+														
+													
+												</li>
+												<li>
+													<strong>작성일</strong>
+													2026.07.08
+												</li>
+												<li>
+													<strong>조회수</strong>
+													
+														
+														
+														
+														
+															106
+														
+													
+												</li>
+												<li>
+													<strong>첨부파일</strong>
+													
+														
+														
+														
+														
+															
+																
+																
+																	<p class="file-y">첨부파일 있음</p>
+																
+															
+														
+													
+												</li>
+											</ul>
+										</div>
+									</td>
+
+									<td class="td-write">
+										
+											
+											
+											
+											
+												
+													
+														학사과
+													
+													
+												
+											
+										
+									</td>
+									<td class="td-date">2026.07.08</td>
+									
+									
+									<td class="td-access">
+										
+											
+											
+											
+											
+												106
+											
+										
+									</td>
+									
+										<td class="td-file file">
+											
+												
+												
+												
+												
+													
+														
+														
+															<p class="file-y">첨부파일 있음</p>
+														
+													
+												
+											
+										</td>
+									
+									
+									
+									
+									
+										
+									
+										
+									
+								</tr>
+							
+								
+									
+									
+									
+									
+										
+										<tr class="">
+									
+								
+									<td class="td-num">5623</td>
+									
+									
+									<td class="td-category">
+									
+										
+										
+										
+										
+											<span class="col_1e5">[장학금]</span>
+										
+										
+										
+										
+									
+								</td>
+									<td class="td-subject">
+										
+											
+											
+											
+											
+												
+												<a href="/bbs/inu/2006/426842/artclView" class="btn-view-artcl" data-site-id="inu" data-fnct-no="2006" data-artcl-seq="426842">
+											
+										
+										
+										
+											
+											
+											
+											
+												<strong>[교외장학] 2026학년도 쌍용곰두리장학생 지원신청 안내</strong>
+												
+													<span class="new">새글</span>
+												
+											
+										
+										
+											
+											
+											
+											
+												</a>
+											
+										
+										<div class="mobile-list">
+											<ul>
+												<li>
+													<strong>작성자</strong>
+													
+														
+															학생지원과
+														
+														
+													
+												</li>
+												<li>
+													<strong>작성일</strong>
+													2026.07.08
+												</li>
+												<li>
+													<strong>조회수</strong>
+													
+														
+														
+														
+														
+															263
+														
+													
+												</li>
+												<li>
+													<strong>첨부파일</strong>
+													
+														
+														
+														
+														
+															
+																
+																
+																	<p class="file-y">첨부파일 있음</p>
+																
+															
+														
+													
+												</li>
+											</ul>
+										</div>
+									</td>
+
+									<td class="td-write">
+										
+											
+											
+											
+											
+												
+													
+														학생지원과
+													
+													
+												
+											
+										
+									</td>
+									<td class="td-date">2026.07.08</td>
+									
+									
+									<td class="td-access">
+										
+											
+											
+											
+											
+												263
+											
+										
+									</td>
+									
+										<td class="td-file file">
+											
+												
+												
+												
+												
+													
+														
+														
+															<p class="file-y">첨부파일 있음</p>
+														
+													
+												
+											
+										</td>
+									
+									
+									
+									
+									
+										
+									
+										
+									
+								</tr>
+							
+								
+									
+									
+									
+									
+										
+										<tr class="">
+									
+								
+									<td class="td-num">5622</td>
+									
+									
+									<td class="td-category">
+									
+										
+										
+											<span class="col_1e5">[학점교류]</span>
+										
+										
+										
+										
+										
+										
+									
+								</td>
+									<td class="td-subject">
+										
+											
+											
+											
+											
+												
+												<a href="/bbs/inu/2006/426841/artclView" class="btn-view-artcl" data-site-id="inu" data-fnct-no="2006" data-artcl-seq="426841">
+											
+										
+										
+										
+											
+											
+											
+											
+												<strong>2026학년도 2학기 한경국립대학교 학점교류 안내(~7. 29.(수) 13:00)</strong>
+												
+													<span class="new">새글</span>
+												
+											
+										
+										
+											
+											
+											
+											
+												</a>
+											
+										
+										<div class="mobile-list">
+											<ul>
+												<li>
+													<strong>작성자</strong>
+													
+														
+															학사과
+														
+														
+													
+												</li>
+												<li>
+													<strong>작성일</strong>
+													2026.07.08
+												</li>
+												<li>
+													<strong>조회수</strong>
+													
+														
+														
+														
+														
+															82
+														
+													
+												</li>
+												<li>
+													<strong>첨부파일</strong>
+													
+														
+														
+														
+														
+															
+																
+																
+																	<p class="file-y">첨부파일 있음</p>
+																
+															
+														
+													
+												</li>
+											</ul>
+										</div>
+									</td>
+
+									<td class="td-write">
+										
+											
+											
+											
+											
+												
+													
+														학사과
+													
+													
+												
+											
+										
+									</td>
+									<td class="td-date">2026.07.08</td>
+									
+									
+									<td class="td-access">
+										
+											
+											
+											
+											
+												82
+											
+										
+									</td>
+									
+										<td class="td-file file">
+											
+												
+												
+												
+												
+													
+														
+														
+															<p class="file-y">첨부파일 있음</p>
+														
+													
+												
+											
+										</td>
+									
+									
+									
+									
+									
+										
+									
+										
+									
+								</tr>
+							
+								
+									
+									
+									
+									
+										
+										<tr class="">
+									
+								
+									<td class="td-num">5621</td>
+									
+									
+									<td class="td-category">
+									
+										
+										
+											<span class="col_1e5">[학점교류]</span>
+										
+										
+										
+										
+										
+										
+									
+								</td>
+									<td class="td-subject">
+										
+											
+											
+											
+											
+												
+												<a href="/bbs/inu/2006/426840/artclView" class="btn-view-artcl" data-site-id="inu" data-fnct-no="2006" data-artcl-seq="426840">
+											
+										
+										
+										
+											
+											
+											
+											
+												<strong>2026학년도 2학기 경희대학교 학점교류 안내(~8. 4.(화) 13:00)</strong>
+												
+													<span class="new">새글</span>
+												
+											
+										
+										
+											
+											
+											
+											
+												</a>
+											
+										
+										<div class="mobile-list">
+											<ul>
+												<li>
+													<strong>작성자</strong>
+													
+														
+															학사과
+														
+														
+													
+												</li>
+												<li>
+													<strong>작성일</strong>
+													2026.07.08
+												</li>
+												<li>
+													<strong>조회수</strong>
+													
+														
+														
+														
+														
+															135
+														
+													
+												</li>
+												<li>
+													<strong>첨부파일</strong>
+													
+														
+														
+														
+														
+															
+																
+																
+																	<p class="file-y">첨부파일 있음</p>
+																
+															
+														
+													
+												</li>
+											</ul>
+										</div>
+									</td>
+
+									<td class="td-write">
+										
+											
+											
+											
+											
+												
+													
+														학사과
+													
+													
+												
+											
+										
+									</td>
+									<td class="td-date">2026.07.08</td>
+									
+									
+									<td class="td-access">
+										
+											
+											
+											
+											
+												135
+											
+										
+									</td>
+									
+										<td class="td-file file">
+											
+												
+												
+												
+												
+													
+														
+														
+															<p class="file-y">첨부파일 있음</p>
+														
+													
+												
+											
+										</td>
+									
+									
+									
+									
+									
+										
+									
+										
+									
+								</tr>
+							
+						
+						
+					
+				</tbody>
+
+  detail_html:
+    <div class="wrap-contents">
+	  <div class="container">
+		<!-- Sub Tab -->
+		<nav class="tab type2">
+		  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+    
+
+ 
+<nav id="menuUItab" class="menuUItab ">
+	
+	
+	
+	<div class="hidden">
+		fnctId=sitemenu,menuViewType=tab
+	</div>
+	
+	
+	
+	
+
+	
+</nav>
+
+
+		</nav>
+		<!-- //Sub Tab -->
+
+		<!-- Contents Builder -->
+		<main class="contents" id="subContent">
+		  <div id="contentsEditHtml">
+	
+	
+	<input type="hidden" id="siteIdVal" value="inu">
+	
+	<div class="contntMaster">
+		/WEB-INF/jsp/k2web/com/cop/site/layout.jsp<br>
+		inu_sub
+	</div>
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+	
+	
+	
+	
+	
+	
+	<input type="hidden" id="pathMenuSeqs" value="355,561,584,1534">
+
+	
+	
+	
+	<input id="editMode" type="hidden" value="GENERAL">
+	<input type="hidden" value="1534">
+	
+	
+	<!-- //// SITE_MENU_FNCT_CHECK_SUM don't delete! ///// -->
+	
+	
+	<article id="_contentBuilder" class="_contentBuilder _k2__WiZaRd_general">
+		
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<div class="_obj _objWidget" id="menu1534_obj7842" style=""> 
+ <div class="hidden widgetInfo">
+   fnctId=bbs,fnctNo=2006 
+ </div>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+<div class="_fnctWrap" id="artclViewContainer" data-site-id="inu" data-fnct-no="2006" data-artcl-seq="426877" data-title="[공학교육혁신센터] 창의혁신DNA 직무캠프(심화)모집안내(~7/23,목)" data-blind-yn="N" data-view-url="/bbs/inu/2006/426877/artclView">
+
+	
+
+	<div class="board-view-info">
+		
+		<input type="hidden" id="mouseCtrl">
+		
+		<div class="view-info">
+			<h2 class="view-title">
+				
+				
+				[공학교육혁신센터] 창의혁신DNA 직무캠프(심화)모집안내(~7/23,목)
+			</h2>
+		</div>
+
+		<div class="view-detail">
+			<div class="view-util">
+				<dl class="view-num">
+					<dt>글번호</dt>
+					<dd>426877</dd>
+				</dl>
+				<dl class="write">
+					<dt>작성일</dt>
+					<dd>2026-07-09</dd>
+				</dl>
+				<dl class="modify">
+					<dt>수정일</dt>
+					<dd>2026-07-09</dd>
+				</dl>
+				<dl class="writer">
+					<dt>작성자</dt>
+					<dd>
+						
+							
+								공학교육혁신센터
+								
+									(032-835-9633)
+								
+							
+							
+						
+					</dd>
+				</dl> 
+				<dl class="count">
+					<dt>조회수</dt>
+					<dd>33</dd>
+				</dl>
+				
+			</div>
+
+			<div class="view-share">
+				<div class="sns">
+					
+				</div>
+				<div class="util">
+					
+
+					
+
+					
+
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="view-con">
+		
+
+		
+			
+				<p class="0"><span style="font-family: '맑은 고딕'; font-size: 12pt;">창의혁신</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">DNA </span><span style="font-family: '맑은 고딕'; font-size: 12pt;">직무캠프</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">(</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">심화</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">)</span><span style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">『</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">기계산업</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">SC</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">와 함께하는 산업</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">AX</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">관련 </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">SW</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">전문가 양성 과정 및 공모전</span><span style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">』</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">에 참가할 학생을 모집합니다</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">.</span></p>
+<p class="0"><span style="font-size: 12pt; font-family: '맑은 고딕';">&nbsp;</span></p>
+<p class="0"><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">1. </span><span style="font-family: '맑은 고딕'; font-size: 12pt;">공모전 추진목표</span></p>
+<p class="0"><span style="font-family: '맑은 고딕'; font-size: 12pt;">목표 </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">: CATIA </span><span style="font-family: '맑은 고딕'; font-size: 12pt;">교육을 통해 습득한 설계 역량을 바탕으로 협회에서 제시한 과제를 직접 기획</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">·</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">설계</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">(Modeling)</span></p>
+<p class="0"><span style="font-family: '맑은 고딕'; font-size: 12pt;">과제 </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">: </span><span style="font-family: '맑은 고딕'; font-size: 12pt;">기계산업 완성차</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">(</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">굴착기</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">, </span><span style="font-family: '맑은 고딕'; font-size: 12pt;">지게차</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">, </span><span style="font-family: '맑은 고딕'; font-size: 12pt;">트랙터</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">) 3</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">종의 미래형 디자인 설계</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">(Modeling)&nbsp;</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">또는 위험작업 대응 안전 디자인 설계</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">(Modeling)</span></p>
+<p class="0"><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;"><br></span></p>
+<p class="0"><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">2. </span><span style="font-family: '맑은 고딕'; font-size: 12pt;">공모전 추진개요</span></p>
+<p class="0"><span style="font-family: '맑은 고딕'; font-size: 12pt;">교육명 </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">: 2026</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">년도 기계산업</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">SC</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">와 함께하는</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">&nbsp;</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">산업 </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">AX </span><span style="font-family: '맑은 고딕'; font-size: 12pt;">관련 </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">SW </span><span style="font-family: '맑은 고딕'; font-size: 12pt;">전문가 양성 과정 및 공모전</span></p>
+<p class="0"><span style="font-family: '맑은 고딕'; font-size: 12pt;">교육기간 </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">: 2026. 8. 3.(</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">월</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">) ~ 8. 28.(</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">금</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">)</span></p>
+<p class="0"><span style="font-family: '맑은 고딕'; font-size: 12pt;">교육방식 </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">: </span><span style="font-family: '맑은 고딕'; font-size: 12pt;">실시간 온라인 교육</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">(Zoom) </span><span style="font-family: '맑은 고딕'; font-size: 12pt;">및 공모전 발표</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">·</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">시상</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">(</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">대면</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">)</span></p>
+<p class="0"><span style="font-family: '맑은 고딕'; font-size: 12pt;">참가대상 </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">: </span><span style="font-family: '맑은 고딕'; font-size: 12pt; color: rgb(0, 0, 255);">성균관대학교 컨소시엄 참여대학 학부생 총 </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt; color: rgb(0, 0, 255);">30</span><span style="font-family: '맑은 고딕'; font-size: 12pt; color: rgb(0, 0, 255);">명</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt; color: rgb(0, 0, 255);">(10</span><span style="font-family: '맑은 고딕'; font-size: 12pt; color: rgb(0, 0, 255);">팀</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt; color: rgb(0, 0, 255);">, 3</span><span style="font-family: '맑은 고딕'; font-size: 12pt; color: rgb(0, 0, 255);">인 </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt; color: rgb(0, 0, 255);">1</span><span style="font-family: '맑은 고딕'; font-size: 12pt; color: rgb(0, 0, 255);">조</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt; color: rgb(0, 0, 255);">)</span></p>
+<p class="0"><span style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt; color: rgb(0, 0, 255);">※ </span><span style="font-family: '맑은 고딕'; font-size: 12pt; color: rgb(0, 0, 255);">대학별 </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt; color: rgb(0, 0, 255);">1</span><span style="font-family: '맑은 고딕'; font-size: 12pt; color: rgb(0, 0, 255);">팀</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt; color: rgb(0, 0, 255);">(3</span><span style="font-family: '맑은 고딕'; font-size: 12pt; color: rgb(0, 0, 255);">명</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt; color: rgb(0, 0, 255);">) </span><span style="font-family: '맑은 고딕'; font-size: 12pt; color: rgb(0, 0, 255);">추천 가능</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt; color: rgb(0, 0, 255);">(</span><span style="font-family: '맑은 고딕'; font-size: 12pt; color: rgb(0, 0, 255);">사전 팀 구성 필수</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt; color: rgb(0, 0, 255);">)</span></p>
+<p class="0"><span style="font-family: '맑은 고딕'; font-size: 12pt;">주요내용</span></p>
+<p class="0"><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">CATIA </span><span style="font-family: '맑은 고딕'; font-size: 12pt;">기초 및 실습 교육</span></p>
+<p class="0"><span style="font-family: '맑은 고딕'; font-size: 12pt;">전문가 멘토링 및 사후 </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">A/S </span><span style="font-family: '맑은 고딕'; font-size: 12pt;">멘토링</span></p>
+<p class="0"><span style="font-family: '맑은 고딕'; font-size: 12pt;">미래형 기계산업 완성차</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">(</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">굴착기</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">·</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">지게차</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">·</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">트랙터</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">) </span><span style="font-family: '맑은 고딕'; font-size: 12pt;">디자인 설계</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">&nbsp;</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">또는 위험작업 대응 안전 디자인 설계</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">(Modeling)</span></p>
+<p class="0"><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;"><br></span></p>
+<p class="0"><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">3. </span><span style="font-family: '맑은 고딕'; font-size: 12pt;">추진일정</span></p>
+<p class="0"><span style="font-family: '맑은 고딕'; font-size: 12pt;">신청접수 </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">: 7.13.(</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">월</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">) ~ 7.23.(목</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">)</span></p>
+<p class="0"><span style="font-family: '맑은 고딕'; font-size: 12pt;">선정발표 </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">: ~7.28.(</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">화</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">) 13:00 (</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">개별 안내</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">)</span></p>
+<p class="0"><span style="font-family: '맑은 고딕'; font-size: 12pt;">오리엔테이션 </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">: 8.3.(</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">월</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">)</span></p>
+<p class="0"><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">CATIA </span><span style="font-family: '맑은 고딕'; font-size: 12pt;">교육 </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">: 8.3.(</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">월</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">) ~ 8.6.(</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">목</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">)</span></p>
+<p class="0"><span style="font-family: '맑은 고딕'; font-size: 12pt;">멘토링 </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">: 8.7.(</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">금</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">)</span></p>
+<p class="0"><span style="font-family: '맑은 고딕'; font-size: 12pt;">사후 </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">A/S </span><span style="font-family: '맑은 고딕'; font-size: 12pt;">멘토링 </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">: 8.18.(</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">화</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">), 8.24.(</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">월</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">)</span></p>
+<p class="0"><span style="font-family: '맑은 고딕'; font-size: 12pt;">결과물 제출 </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">: ~8.26.(</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">수</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">)</span></p>
+<p class="0"><span style="font-family: '맑은 고딕'; font-size: 12pt;">평가 및 시상 </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">: 8.28.(</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">금</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">), </span><span style="font-family: '맑은 고딕'; font-size: 12pt;">성균관대학교 자연과학캠퍼스</span></p>
+<p class="0"><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;"><br></span></p>
+<p class="0"><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">4. </span><span style="font-family: '맑은 고딕'; font-size: 12pt;">시상내역</span></p>
+<p class="0"><span style="font-family: '맑은 고딕'; font-size: 12pt;">대상</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">(1</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">팀</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">) : </span><span style="font-family: '맑은 고딕'; font-size: 12pt;">상장 및 상금 </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">50</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">만원</span></p>
+<p class="0"><span style="font-family: '맑은 고딕'; font-size: 12pt;">최우수상</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">(1</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">팀</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">) : </span><span style="font-family: '맑은 고딕'; font-size: 12pt;">상장 및 상금 </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">40</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">만원</span></p>
+<p class="0"><span style="font-family: '맑은 고딕'; font-size: 12pt;">우수상</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">(1</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">팀</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">) : </span><span style="font-family: '맑은 고딕'; font-size: 12pt;">상장 및 상금 </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">30</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">만원</span></p>
+<p class="0"><span style="font-family: '맑은 고딕'; font-size: 12pt;">장려상</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">(3</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">팀</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">) : </span><span style="font-family: '맑은 고딕'; font-size: 12pt;">상장 및 상금 </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">10</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">만원</span></p>
+<p class="0"><span style="font-family: '맑은 고딕'; font-size: 12pt;">공학혁신상</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">(4</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">팀</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">) : </span><span style="font-family: '맑은 고딕'; font-size: 12pt;">상장</span></p>
+<p class="0"><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;"><br></span></p>
+<p class="0"><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">5. </span><span style="font-family: '맑은 고딕'; font-size: 12pt;">신청방법</span></p>
+<p class="0"><span style="font-family: '맑은 고딕'; font-size: 12pt;">신청기간 </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">: 2026. 7.13.(</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">월</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">) ~ 7.23.(</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">목</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">)</span></p>
+<p class="0"><span style="font-family: '맑은 고딕'; font-size: 12pt;">제출방법 </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">: 3</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">인 </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">1</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">조로 팀 신청</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">, </span><span style="font-family: '맑은 고딕'; font-size: 12pt;">이메일</span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">miracle8204@inu.ac.kr)</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">로 제출</span></p>
+<p class="0"><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;"><br></span></p>
+<p class="0"><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">6.</span><span style="font-family: '맑은 고딕'; font-size: 12pt;">문의</span></p>
+<p class="0"><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">- </span><span style="font-family: '맑은 고딕'; font-size: 12pt;">프로그램 문의 </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">: </span><span style="font-family: '맑은 고딕'; font-size: 12pt;">성균관대학교 공학교육혁신센터 </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">(</span><span style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">☎ </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">031-290-5613 / </span><span style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">✉ </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">athehan@skku.edu)</span></p>
+<p class="0"><span style="font-family: '맑은 고딕'; font-size: 12pt;">선발 문의 </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">: </span><span style="font-family: '맑은 고딕'; font-size: 12pt;">인천대학교 공학교육혁신센터 </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">(</span><span style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">☎ </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">835-9633 / </span><span style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">✉ </span><span lang="EN-US" style="font-family: '맑은 고딕'; letter-spacing: 0pt; font-size: 12pt;">miracle8204@inu.ac.kr)</span></p>
+<p><span style="font-size: 12pt; font-family: '맑은 고딕';"><br></span></p>
+			
+			
+		
+	</div>
+
+	
+
+	<div class="view-file">
+		
+			
+		
+			
+		
+			
+		
+
+		
+			
+			<dl class="row">
+				<dt class="title">첨부파일</dt>
+				<dd class="insert">
+					
+						
+							<ul>
+								
+									<li>
+										
+											<a href="/bbs/inu/2611/388705/download">
+										
+										붙임1. 2026년도 기계산업SC와 함께하는 산업 AX 관련 SW 전문가 양성 과정 및 공모전 안내.pdf
+										
+											</a>
+										
+
+										<input type="hidden" class="atchmnflRealFullPath" value="/sites/inu/atchmnfl/bbs/2611/temp_1783571765922100.tmp" title="새창">										
+										
+												
+												<input type="button" value="미리보기" class="tiny-btn color1 btn-pdf-viewer" data-index="0" title="새창">
+										
+									</li>
+								
+									<li>
+										
+											<a href="/bbs/inu/2611/388706/download">
+										
+										붙임2. 2026년도 기계산업SC와 함께하는 산업 AX 관련 SW 전문가 양성 과정 및 공모전 신청서.xlsx
+										
+											</a>
+										
+
+										<input type="hidden" class="atchmnflRealFullPath" value="/sites/inu/atchmnfl/bbs/2611/temp_1783571766801100.tmp" title="새창">										
+										
+									</li>
+								
+							</ul>
+						
+						
+					
+				</dd>
+			</dl>
+		
+	</div>
+
+	
+
+	<div class="board-button view">
+		<form name="listForm" method="post" action="/bbs/inu/2006/artclList">
+			<input type="hidden" name="layout" value="GnfYFt7D%2FUknp7HTnGASLQ%3D%3D">
+			<input type="hidden" id="page" name="page" value="1">
+			<input type="hidden" name="srchColumn" value="">
+			<input type="hidden" name="srchWrd" value="">
+			<input type="hidden" name="bbsClSeq" value="">
+			<input type="hidden" name="bbsOpenWrdSeq" value="">
+			<input type="hidden" name="rgsBgndeStr" value="">
+			<input type="hidden" name="rgsEnddeStr" value="">
+			<input type="hidden" name="isViewMine" value="false">
+			<input type="hidden" name="password" value="">
+			<input type="hidden" name="csrfToken" value="88b1767d-a940-4742-94e7-c230bf67adfc">
+			<input type="hidden" id="viewType" value="">
+			<input type="hidden" id="siteId" value="inu">
+			<input type="hidden" id="fnctNo" value="2006">
+			<input type="hidden" id="artclSeq" value="426877">
+			
+			<div class="btn-control">
+				<button type="submit" class="btn-style color color1 ml20">목록</button>
+			</div>
+		</form>
+	</div>
+
+	
+
+	
+</div>
+
+
+
+
+
+
+ 
+ <input type="hidden" id="bbs" value="bbs"> 
+</div>
+		
+	</article>
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+</div>
+		</main>
+		<!-- //Contents Builder -->
+	  </div>
+	</div>
+
+directory tree:
+  nachim/backend/
+    ├── app/
+    │   ├── api/             # API 엔드포인트
+    │   ├── services/        # 비즈니스 로직
+    │   ├── crawler/         # 데이터 수집
+    │   ├── scheduler/       # 정기 작업
+    │   ├── database/        # 데이터베이스 모델 및 세션
+    │   ├── schemas/         # Pydantic 스키마
+    │   ├── ai/              # AI 서비스
+    │   ├── core/            # 설정 및 공통 유틸리티
+    │   └── main.py          # FastAPI 진입점
+    │
+    ├── tests/
+    ├── alembic/
+    ├── requirements.txt
+    ├── pyproject.toml
+    ├── Dockerfile
+    └── README.md
+
+    
