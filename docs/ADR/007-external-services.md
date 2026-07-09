@@ -1,12 +1,12 @@
-# ADR-007 : External Services
+# ADR-007 : 외부 서비스 활용
 
-Status: Accepted
+상태: 승인됨
 
-Date: 2026-07-08
+작성일: 2026-07-08
 
 ---
 
-## Context
+## 배경
 
 학생 1인 개발 프로젝트에서는
 
@@ -14,7 +14,7 @@ Date: 2026-07-08
 
 ---
 
-## Decision
+## 결정
 
 다음 기능은 직접 구현하지 않는다.
 
@@ -32,7 +32,7 @@ Service Layer를 통해 접근한다.
 
 ---
 
-## Consequences
+## 결과
 
 개발 속도가 크게 향상된다.
 

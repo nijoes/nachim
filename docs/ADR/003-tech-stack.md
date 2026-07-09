@@ -1,12 +1,12 @@
-# ADR-003 : Technology Stack
+# ADR-003 : 기술 스택
 
-Status: Accepted
+상태: 승인됨
 
-Date: 2026-07-08
+작성일: 2026-07-08
 
 ---
 
-## Context
+## 배경
 
 나침은
 
@@ -18,7 +18,7 @@ Date: 2026-07-08
 
 ---
 
-## Decision
+## 결정
 
 Frontend
 
@@ -58,7 +58,7 @@ Deploy
 
 ---
 
-## Consequences
+## 결과
 
 Python 생태계를 적극 활용할 수 있다.
 

@@ -2,17 +2,17 @@
 
 > Last Updated: 2026-07-08
 
-## Purpose
+## 목적
 
-The **Notice** domain stores announcements collected from external sources such as university websites, job platforms, scholarship portals, and competition websites.
+**Notice** 도메인은 대학 홈페이지, 채용 사이트, 장학금 포털, 공모전 사이트 등 외부 출처에서 수집한 공지 데이터를 저장합니다.
 
-This schema is designed to:
+이 스키마의 목표는 다음과 같습니다.
 
-- Support rapid MVP development.
-- Preserve original data for future AI reprocessing.
-- Allow gradual normalization as the service grows.
+- MVP를 빠르게 개발할 수 있도록 지원
+- 원본 데이터를 보존하여 향후 AI 재처리에 활용
+- 서비스 성장에 따라 점진적인 정규화 지원
 
-**Related ADR**
+**관련 ADR**
 
 - ADR-005 : Database Strategy
 
@@ -20,170 +20,34 @@ This schema is designed to:
 
 # Notice Table
 
-Stores the primary information for each crawled notice.
+각 공지의 기본 정보를 저장합니다.
 
-| Column | Type | Description |
-|---------|------|-------------|
-| id | BIGINT AUTO_INCREMENT PRIMARY KEY | Internal unique identifier |
-| source | VARCHAR(50) | Data source (e.g. INU_NOTICE, JOBKOREA, QNET) |
-| category | VARCHAR(50) | Notice category (Academic, Scholarship, Employment, Contest, etc.) |
-| notice_number | VARCHAR(30) | Original notice identifier from the source website |
-| title | VARCHAR(300) | Notice title |
-| author | VARCHAR(100) | Author or organization |
-| target | TEXT NULL | Target audience (stored as original text) |
-| view_count | INT DEFAULT 0 | View count from source |
-| posted_at | DATETIME | Original posting date |
-| apply_start | DATETIME NULL | Application start date |
-| apply_end | DATETIME NULL | Application deadline |
-| summary | TEXT NULL | AI-generated summary |
-| content | LONGTEXT | Original notice content |
-| url | TEXT | Original notice URL |
-| status | VARCHAR(20) | ACTIVE / UPDATED / DELETED |
-| last_crawled_at | DATETIME | Last successful crawl time |
-| created_at | TIMESTAMP | Record creation time |
-| updated_at | TIMESTAMP | Record update time |
+| 컬럼 | 설명 |
+|------|------|
+| id | 내부 식별자 |
+| notice_number | 원본 게시글 번호 |
+| title | 공지 제목 |
+| author | 작성자 |
+| target | 대상 |
+| view_count | 조회수 |
+| posted_at | 게시일 |
+| apply_start | 신청 시작일 |
+| apply_end | 신청 마감일 |
+| summary | AI 요약 |
+| content | 원문 |
+| url | 원문 URL |
+| created_at | 생성 시각 |
+| updated_at | 수정 시각 |
 
 ---
 
 # Attachment Table
 
-Stores files attached to a notice.
+공지에 포함된 첨부파일 정보를 저장합니다.
 
-One notice may contain multiple attachments.
-
-| Column | Type | Description |
-|---------|------|-------------|
-| id | BIGINT AUTO_INCREMENT PRIMARY KEY | Internal unique identifier |
-| notice_id | BIGINT NOT NULL | Foreign Key → notice.id |
-| file_name | VARCHAR(300) | Original file name |
-| download_url | TEXT | Attachment download URL |
-
----
-
-# Relationships
-
-```text
-Notice (1)
-    │
-    │
-    └──────────────< Attachment (N)
-```
-
----
-
-# Indexes
-
-```sql
-INDEX (source)
-
-INDEX (category)
-
-INDEX (posted_at)
-
-INDEX (apply_end)
-
-UNIQUE INDEX (source, notice_number)
-```
-
----
-
-# Constraints
-
-```text
-PRIMARY KEY (id)
-
-FOREIGN KEY (notice_id)
-    REFERENCES notice(id)
-
-UNIQUE (source, notice_number)
-```
-
----
-
-# Design Decisions
-
-## Why source is stored
-
-Multiple websites may use the same notice number.
-
-Using `(source, notice_number)` guarantees uniqueness across different data providers.
-
----
-
-## Why category is VARCHAR
-
-The MVP prioritizes development speed.
-
-Normalization into a separate Category table will be considered after sufficient production data has been collected.
-
----
-
-## Why target is TEXT
-
-Target information differs greatly across organizations.
-
-Examples:
-
-- 전체 학생
-- 컴퓨터공학부
-- 졸업예정자
-- 3~4학년
-
-The original value is preserved to allow future AI-based parsing and normalization.
-
----
-
-## Why content is preserved
-
-Original notice content is never discarded.
-
-As AI models improve, stored notices can be reprocessed to extract:
-
-- Better summaries
-- More accurate deadlines
-- Target audience
-- Tags
-- Structured metadata
-
----
-
-## Why status exists
-
-Some notices are edited or removed after publication.
-
-The status field allows synchronization with the original source without deleting historical records.
-
-Possible values:
-
-- ACTIVE
-- UPDATED
-- DELETED
-
----
-
-# Future Considerations
-
-The current schema intentionally avoids excessive normalization.
-
-As the platform grows, the following tables may be introduced:
-
-- Event
-- Category
-- Source
-- Target
-- Tag
-
-This evolution will be handled through Alembic migrations without affecting existing data.
-
----
-
-# Notes
-
-This schema is optimized for the MVP.
-
-The priority is:
-
-1. Preserve original data.
-2. Maintain data quality.
-3. Enable future scalability.
-4. Keep the implementation simple.
+| 컬럼 | 설명 |
+|------|------|
+| id | 첨부파일 ID |
+| notice_id | 연결된 공지 ID |
+| file_name | 파일명 |
+| download_url | 다운로드 URL |

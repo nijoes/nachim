@@ -1,12 +1,12 @@
-# ADR-005 : Database Strategy
+# ADR-005 : 데이터베이스 전략
 
-Status: Accepted
+상태: 승인됨
 
-Date: 2026-07-08
+작성일: 2026-07-08
 
 ---
 
-## Context
+## 배경
 
 나침은 데이터 플랫폼이다.
 
@@ -16,7 +16,7 @@ Date: 2026-07-08
 
 ---
 
-## Decision
+## 결정
 
 초기에는
 
@@ -44,7 +44,7 @@ Alembic Migration을 이용하여
 
 ---
 
-## Consequences
+## 결과
 
 MVP 개발 속도가 빨라진다.
 

@@ -1,18 +1,18 @@
-# ADR-004 : Backend Architecture
+# ADR-004 : 백엔드 아키텍처
 
-Status: Accepted
+상태: 승인됨
 
-Date: 2026-07-08
+작성일: 2026-07-08
 
 ---
 
-## Context
+## 배경
 
 FastAPI 프로젝트 구조를 결정해야 한다.
 
 ---
 
-## Decision
+## 결정
 
 backend/
 
@@ -42,7 +42,7 @@ alembic/
 
 ---
 
-## Consequences
+## 결과
 
 API와 비즈니스 로직이 분리된다.
 
