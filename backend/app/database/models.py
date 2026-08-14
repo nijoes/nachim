@@ -1,5 +1,3 @@
-# app/database/models.py
-
 from datetime import datetime
 
 from sqlalchemy import (
@@ -15,40 +13,47 @@ from sqlalchemy.orm import relationship
 from app.database.base import Base
 
 
-class Notice(Base):
-    __tablename__ = "notice"
+class Content(Base):
+    __tablename__ = "content"
 
     # 내부 PK
     id = Column(Integer, primary_key=True, index=True)
 
-    # 학교 게시글 번호 (중복 검사 기준)
-    notice_number = Column(Integer, unique=True, nullable=False, index=True)
+    # 출처
+    source = Column(String(100), nullable=False)          # inu, k-startup, q-net ...
+    source_id = Column(String(100), nullable=False, index=True)
+
+    # 데이터 종류
+    content_type = Column(String(50), nullable=False)
+    # notice
+    # scholarship
+    # event
+    # certification
+    # startup
+    # recruitment
+    # ...
 
     # 기본 정보
     title = Column(String(500), nullable=False)
-    author = Column(String(100))
-    target = Column(String(300))
+    author = Column(String(200))
+    organization = Column(String(200))
+    category = Column(String(200))
+    target = Column(String(500))
 
-    # 조회수
-    view_count = Column(Integer, default=0)
+    view_count = Column(Integer)
 
-    # 게시일
     posted_at = Column(DateTime)
+    updated_source_at = Column(DateTime)
 
-    # 신청기간
-    apply_start = Column(DateTime)
-    apply_end = Column(DateTime)
+    start_at = Column(DateTime)
+    end_at = Column(DateTime)
 
-    # 본문
-    content = Column(Text, nullable=False)
-
-    #요약
+    content = Column(Text)
+    
     summary = Column(Text)
 
-    # 원문 URL
     url = Column(String(1000), nullable=False)
 
-    # 생성/수정
     created_at = Column(
         DateTime,
         default=datetime.utcnow,
@@ -62,10 +67,9 @@ class Notice(Base):
         nullable=False,
     )
 
-    # 첨부파일
     attachments = relationship(
         "Attachment",
-        back_populates="notice",
+        back_populates="content",
         cascade="all, delete-orphan",
     )
 
@@ -73,21 +77,19 @@ class Notice(Base):
 class Attachment(Base):
     __tablename__ = "attachment"
 
-    id = Column(Integer, primary_key=True, index=True)
+    id = Column(Integer, primary_key=True)
 
-    notice_id = Column(
+    content_id = Column(
         Integer,
-        ForeignKey("notice.id", ondelete="CASCADE"),
+        ForeignKey("content.id", ondelete="CASCADE"),
         nullable=False,
     )
 
-    # 표시 이름
     file_name = Column(String(500), nullable=False)
 
-    # 학교 다운로드 링크
     download_url = Column(String(1000), nullable=False)
 
-    notice = relationship(
-        "Notice",
+    content = relationship(
+        "Content",
         back_populates="attachments",
     )
